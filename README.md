@@ -207,11 +207,11 @@ def TaskExecution():
         elif 'track phone' in query:
             speak("yes sir")
             speak("sir code the phone number sir")
-            number = "+917338726969"
+            number = "phone number"
             ch_number = phonenumbers.parse(number, "CH")
             print(geocoder.description_for_number(ch_number, "en"))
             speak(geocoder.description_for_number(ch_number, "en"))
-            number = "+917338726969"
+            number = "phone number"
             ch_number = phonenumbers.parse(number, "CH")
             print(geocoder.description_for_number(ch_number, "en"))
             speak(geocoder.description_for_number(ch_number, "en"))
